@@ -5,7 +5,7 @@ import pytest
 def test_encrypt_message():
     test_to_crypto = "daniel"
 
-    # teste em número impar
+    # teste em número par
     assert encrypt_message(test_to_crypto, 4) == "le_inad"
 
     # teste em número impar
