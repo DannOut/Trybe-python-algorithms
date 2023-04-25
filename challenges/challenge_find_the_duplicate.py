@@ -1,6 +1,9 @@
 def find_duplicate(nums):
     nums.sort()
 
+    if len(nums) == 0:
+        return False
+
     counter = 1
     number = False
 
